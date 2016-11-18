@@ -76,6 +76,14 @@ body {
     text-align: center;
 }
 
+.isaacsdownarrow {
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
 @media (min-width:700px) {
     .header {
         display: flex;
