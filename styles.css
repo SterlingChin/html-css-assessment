@@ -1,0 +1,89 @@
+body {
+    background-image: url("./img/main-bg.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.header {
+    height: 50px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    display: none;
+    justify-content: space-around;
+    z-index: 50;
+}
+
+.header-sm {
+    height: 50px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    display: none;
+    justify-content: space-around;
+    z-index: 99;
+}
+
+.center {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.facebook {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+
+.twitter {
+    /*display: none;*/
+    height: auto;
+    width: auto;
+    max-width: 45px;
+    max-height: 45px;
+    position: absolute;
+    top: 14px;
+    right: 75px;
+}
+
+.main {
+    font-size: 20vh;
+    margin: auto;
+    text-align: center;
+}
+
+.sub {
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width:700px) {
+    .header {
+        display: flex;
+    }
+}
+
+@media (max-width:699px) {
+  .header-sm {
+    display: flex;
+  }
+}
